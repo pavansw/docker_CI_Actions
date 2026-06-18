@@ -6,7 +6,7 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: Set up QEMU test
-       uses: docker/setup-qumu-action@v3
+       uses: docker/setup-qemu-action@v3
      - name: Setup Docker Buildx
        uses: docker/setup-buildx-action@v3
      - name: login to Docker Hub
